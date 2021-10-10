@@ -1,0 +1,16 @@
+#DjangoCore
+Django>=3.2
+appdirs==1.4.4
+asgiref==3.3.4
+astroid==2.3.3
+# for database backup
+django-dbbackup==3.3.0
+# for image loading and manipulation
+pillow==8.2.0
+#Dashboard
+pylint==2.4.4
+django-3-jet==1.0.8
+# fire-base-admin
+firebase-admin == 5.0.0
+
+

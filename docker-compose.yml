@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+
+  web:
+    build: .
+    # build order  1 -> run migrations   2 -> run python
+    #
+    command: >
+      sh -c "
+      sh scripts/sync/sync_database.sh &&
+      python3 manage.py runserver 0.0.0.0:8080
+      "
+    ports:
+      - 8080:8080

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CircleCI.ProjectSettings">
+    <option name="activeProject">
+      <Project>
+        <option name="organization" value="Qenawi" />
+        <option name="name" value="django-docker-example" />
+        <option name="provider" value="Github" />
+      </Project>
+    </option>
+    <option name="projects">
+      <list>
+        <Project>
+          <option name="organization" value="Qenawi" />
+          <option name="name" value="django-docker-example" />
+          <option name="provider" value="Github" />
+        </Project>
+      </list>
+    </option>
+  </component>
+</project>
